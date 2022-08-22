@@ -10,7 +10,7 @@ In this case we are asked by a grocery company to help them evalute the results 
 Specifically, they have sent out to customers a mail about a new delivery service they're offering. A group of customers received an expensive and nice designed mail while the other group received a cheaper and more standard mail (same message in both cases).
 The task is to understand if there is a significant difference in terms of conversion between the two mails.
 
-Full code is available [here](https://github.com/Eudossodicnido/Assessing-Campaign-Performance-Using-Chi-Square-Test-For-Independence/blob/main/Assessing%20Campaign%20Performance%20Using%20Chi-Square%20Test%20For%20Independence.ipynb)
+Full code is available [here](https://github.com/Eudossodicnido/Assessing-Campaign-Performance-Using-Chi-Square-Test-For-Independence/blob/main/Assessing%20Campaign%20Performance%20Using%20Chi-Square%20Test%20For%20Independence.ipynb).
 
 # 2. Data
 The data we are given consists of the results of the the test (converted or not '1' and '0') and the type of of message the customers have been exposed to ('mailer1' and 'mailer2'). The two groups are balanced.
