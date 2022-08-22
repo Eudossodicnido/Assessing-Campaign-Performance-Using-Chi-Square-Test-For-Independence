@@ -6,13 +6,13 @@
 </p>
 
 # 1.Business Task
-In this case we are asked by a grocery company to help them to evalute the results of an A/B Test they made.
+In this case we are asked by a grocery company to help them evalute the results of an A/B Test they made.
 Specifically, they have emailed a group of customers with an expensive and nice designed mail advertising a new delivery service and another group with a cheaper and more standard mail, advertising the same service.
 The task is to understand if there is a significant difference in terms of conversion between the two mails.
 Full code is available [here]([https://link-url-here.org](https://github.com/Eudossodicnido/Assessing-Campaign-Performance-Using-Chi-Square-Test-For-Independence/blob/main/Assessing%20Campaign%20Performance%20Using%20Chi-Square%20Test%20For%20Independence.ipynb))
 
 # 2. Data
-The data we are given consists of the results of the the test (converted or not) and the type of of message the customers have been exposed to. The two groups are balanced.
+The data we are given consists of the results of the the test (converted or not) and the type of of message the customers have been exposed to ('mailer1' and 'mailer2'). The two groups are balanced.
 
 ```python
 campaign_data.head()
