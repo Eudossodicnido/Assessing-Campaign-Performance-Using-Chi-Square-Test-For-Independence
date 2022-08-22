@@ -5,16 +5,29 @@
  />
 </p>
 
-#Business Task
+# Business Task
 In this case we are asked by a fictious grocery company to help them to evalute the results of an A/B Test they made.
 Specifically, they have emailed a group of customers with an expensive and nice designed mail advertising a new delivery service and another group with a cheaper and more standard mail, advertising the same service.
 The task is to understand if there is a significant difference in terms of conversion between the two mails.
 
-#Data
+# Data
 The data we are given consists of the results of the the test (converted or not) and the type of of message the customers have been exposed to. The two groups are balanced.
 
-#Approach
-To evaluate the campaign we use the Chi Square Test For Indepence
+'''python
+campaign_data.head()
+'''
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/69009356/185991783-af53fb31-5e64-44bf-8a23-82f6c096aa9f.JPG"
+ />
+</p>
+
+# Approach
+To evaluate the campaign we use the Chi Square Test For Independence
 <p align="center">
 χ2 = ∑(Oi – Ei)2/Ei
 </p>
+
+To do this in Python, we can count on the help of Scipy Package.
+To so we have to:
+calculate the observed values:
+
