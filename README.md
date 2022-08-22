@@ -28,17 +28,22 @@ To evaluate the campaign we use the Chi Square Test For Independence
 </p>
 
 To do so we have to:
-- calculate the observed values:
+
+-Set the hypotesis and the acceptance criteria:
+ - Null Hypotesis: There is no relationship between mailer type and signup rate. They are independent
+ - Alternate Hypotesis: There is a relationship between mailer type and signup rate. They are not independent
+ - Acceptance criteria or α: 0.05 
+
+- Calculate the observed values:
 
 ```python
 observed_values=pd.crosstab(campaign_data['mailer_type'],campaign_data['signup_flag']).values
 ```
-
 <p align="center">
   <img src="[https://user-images.githubusercontent.com/69009356/185991783-af53fb31-5e64-44bf-8a23-82f6c096aa9f.JPG](https://user-images.githubusercontent.com/69009356/185993134-e87bc088-aede-4bfd-9b00-15668b45453a.JPG)"
  />
 </p>
 
-
+Then we proceed 
 To do this in Python, we can count on the help of Scipy Package.
 
