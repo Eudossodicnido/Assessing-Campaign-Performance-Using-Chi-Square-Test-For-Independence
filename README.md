@@ -33,9 +33,9 @@ To do so we have to:
 
 - Set the hypotesis and the acceptance criteria:
 
- - Null Hypotesis: There is no relationship between mailer type and signup rate. They are independent
- - Alternate Hypotesis: There is a relationship between mailer type and signup rate. They are not independent
- - Acceptance criteria or α: 0.05 
+   - Null Hypotesis: There is no relationship between mailer type and signup rate. They are independent
+   - Alternate Hypotesis: There is a relationship between mailer type and signup rate. They are not independent
+   - Acceptance criteria or α: 0.05 
 
 - Calculate the observed values:
 
