@@ -13,9 +13,9 @@ The task is to understand if there is a significant difference in terms of conve
 # Data
 The data we are given consists of the results of the the test (converted or not) and the type of of message the customers have been exposed to. The two groups are balanced.
 
-'''python
+```python
 campaign_data.head()
-'''
+```
 <p align="center">
   <img src="https://user-images.githubusercontent.com/69009356/185991783-af53fb31-5e64-44bf-8a23-82f6c096aa9f.JPG"
  />
