@@ -7,12 +7,12 @@
 
 # 1.Business Task
 In this case we are asked by a grocery company to help them evalute the results of an A/B Test they made.
-Specifically, they have emailed a group of customers with an expensive and nice designed mail advertising a new delivery service and another group with a cheaper and more standard mail, advertising the same service.
+Specifically, they have sent out to customers a mail about a new delivery service they're offering. A group of customers received an expensive and nice designed mail while the other group received a cheaper and more standard mail (same message in both cases).
 The task is to understand if there is a significant difference in terms of conversion between the two mails.
 Full code is available [here]([https://link-url-here.org](https://github.com/Eudossodicnido/Assessing-Campaign-Performance-Using-Chi-Square-Test-For-Independence/blob/main/Assessing%20Campaign%20Performance%20Using%20Chi-Square%20Test%20For%20Independence.ipynb))
 
 # 2. Data
-The data we are given consists of the results of the the test (converted or not) and the type of of message the customers have been exposed to ('mailer1' and 'mailer2'). The two groups are balanced.
+The data we are given consists of the results of the the test (converted or not '1' and '0') and the type of of message the customers have been exposed to ('mailer1' and 'mailer2'). The two groups are balanced.
 
 ```python
 campaign_data.head()
@@ -56,8 +56,8 @@ chi2_statistic, p_value, dof,expected_values=chi2_contingency(observed_values, c
 critical_value=chi2.ppf(1-acceptance_criteria, dof)
 
 ```
-# 4. Results
-From this test we find the that our Chi Square Statistics of 1.9414468614812481 is lower than our critical value of 3.841458820694124, we retain the null hypotesis and conclude that: There is no relationship between mailer type and signup rate.
+# 4. Results and business outcomes
+From this test we find the that our Chi Square Statistics of 1.9414468614812481 is lower than our critical value of 3.841458820694124, we retain the null hypotesis and conclude that here is no relationship between mailer type and signup rate.
 
 In business terms this means that there is actually no difference in sending customer a mail that's more expensive. The business can use the cheaper version and by this saving a lot of money.
 
